@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap')
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* .container{
+  max-width: 80% !important;
+  margin: 0 auto !important;
+} */
+
+/* Hero Section */
+
+.gradient-text{
+    font-size: 80px;
+  background: -webkit-linear-gradient( #2e56a7,#bb6de5 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Golos Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+}
+
+p{
+    color: #000000B3;
+    line-height: 22px;
+    font-weight: 500;
+    font-family: "Golos Text", sans-serif;
+   
+    font-size: 18px;
+}
+
+
+.btn_designs {
+    background-color:#28263c ;
+    padding: 10px 40px;
+   
+    border-radius: 5px;
+   
+  border: none;
+}
+
+.heading_text{
+    letter-spacing: -2px;
+    font-weight: 800;
+    font-family: "Golos Text", sans-serif;
+    font-size: 80px;
+}
+
+
+
+/* Services */
+
+.service-bg{
+  background-image: url('./image/page-bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service_p{
+  font-size: 12px;
+  color: #5D6371;
+  font-family: "Golos Text", sans-serif;
+  font-weight: 600;
+}
+
+.service_ps{
+  font-size: 14px ;
+  color: #5D6371;
+  font-family: "Golos Text", sans-serif;
+
+}
+
+.service_h3{
+  font-size: 16px;
+  
+  color: #181B31;
+ 
+}
+
+
+/* Our_Clients*/
+
+.Our_Clients{
+  background-color: #454545;
+}
+
+.box-client{
+
+  height: 80vh;
+  overflow-y: auto;
+
+}
